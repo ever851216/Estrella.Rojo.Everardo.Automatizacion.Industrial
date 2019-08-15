@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<plcProject caseSensitive="false" extcheck="true">
+	<image>practica1.imgx</image>
+	<commSettings/>
+	<sources>
+		<main>practica1.plc</main>
+		<target id="VP100_1p0">VP100_HMI_1p0.tgt</target>
+		<libraries>
+			<lib link="false">HMIInterface.pll</lib>
+		</libraries>
+		<aux/>
+	</sources>
+	<codegen listing="false" warningEnable="true" symMap="true" saveEXPFile="false" waitExtension="false" saveTargetFiles="false">
+		<disabledWarnings>
+			<warning>G0091</warning>
+			<warning>G0094</warning>
+			<warning>G0130</warning>
+			<warning>G0072</warning>
+		</disabledWarnings>
+	</codegen>
+	<debug watchRefresh="20" watchMaxArray="20"/>
+	<editor useOldGridSize="false"/>
+	<userDef>
+		<release/>
+		<author/>
+		<note/>
+		<version/>
+	</userDef>
+	<commands>
+		<postbuild/>
+		<postdown/>
+		<predown/>
+	</commands>
+</plcProject>
